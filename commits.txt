@@ -1,9 +1,16 @@
+commit 98d710fa98ce67a7c4e0a9f8665b469b812b70a9
+Author: Raúl Moreno <raulmoreno899@gmail.com>
+Date:   Sun Nov 25 23:59:59 2018 -0600
+
+    Modificar el archivo commits
+    
+    Se modificó el archivo de commits
+
 commit f1cd6adba2f808817289bbf575e66b5e53698516
 Author: Raúl Moreno <raulmoreno899@gmail.com>
 Date:   Sun Nov 25 23:57:36 2018 -0600
 
     Añadir archivo commits
-    
     Se añadió un archivo commits en el cual se guardan todos los commits con ayuda del comando git log
 
 commit 2447af232afa9df54218cb224d921b6f4add0409
