@@ -35,7 +35,7 @@
 		</div>
 		
 		<div class="elemento-menu tres">
-			nuevo
+			CAMBIAR EL NOMBRE DE ELEMENTO
 		</div>
 	</div>
 	<div id="titulo" class="c-white">Herrería artística colonial y moderna</div>
