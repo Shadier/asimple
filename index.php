@@ -33,6 +33,10 @@
 		<div class="elemento-menu cuatro">
 			MASTER ELEMENT
 		</div>
+		
+		<div class="elemento-menu tres">
+			nuevo
+		</div>
 	</div>
 	<div id="titulo" class="c-white">Herrería artística colonial y moderna</div>
 	<p id="eslogan" class="c-white">PRESERVANDO NUESTRA HISTORIA<br>CON CALIDAD</p>
