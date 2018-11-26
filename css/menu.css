@@ -1,0 +1,121 @@
+#open-menu{
+	z-index: 2000;
+	text-align: left;
+	margin: 20px;
+	box-sizing: border-box;
+	position: absolute;
+	border-radius: 100px;
+	min-width: 50px;
+	max-width: 50px;
+	min-height: 50px;
+	max-height: 50px;
+	padding: 15px;
+	transition: all 0.5s;
+}
+
+#open-menu:hover{
+	min-width: 130px;
+	max-width: 130px;
+	min-height: 50px;
+	max-height: 50px;
+	transition: all 0.5s;
+}
+
+
+#open-menu img{
+	vertical-align: top;
+	margin: -5px;
+	padding: 0px;
+	top: 0px;
+}
+
+#open-menu p{
+	float: right;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 3px;
+	opacity: 0;
+	transition: .2s;
+}
+#open-menu:hover p{
+	opacity: 1;
+	transition: 1s;
+}
+
+#menu{
+	left: -450px;
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.71);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.71);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.71);
+	z-index: 1000;
+	position: fixed;
+	padding-top: 100px;
+	box-sizing: border-box;
+	min-width: 300px;
+	max-width: 300px;
+	min-height: 100%;
+	max-height: 100%;
+	animation-timing-function: ease-out;
+	transition: all 0.5s;
+}
+
+#menu.active{
+	left: 0px;
+	animation-timing-function: ease-out;
+	transition: all 0.5s;
+}
+
+#menu.active .uno{
+	margin-left: 0px;
+
+	transition:  0.5s !important;
+}
+
+#menu .uno{
+	margin-left: -400px;
+	color: rgb(222, 184, 135);
+	transition:  0.3s !important;
+}
+
+
+#menu.active .dos{
+	margin-left: 0px;
+
+	transition:  0.7s !important;
+}
+
+#menu .dos{
+	margin-left: -600px;
+
+	transition:  .2s !important;
+}
+
+#menu.active .tres{
+	margin-left: 0px;
+
+	transition:  0.9s !important;
+}
+
+#menu .tres{
+	margin-left: -800px;
+
+	transition:  .1s !important;
+}
+
+
+
+.elemento-menu{
+	cursor: pointer;
+	padding: 20px;
+	padding-left: 40px;
+	color: gray;
+	text-align: left;
+	font-size: 30px;
+	animation:  0.5s !important;
+}
+.elemento-menu:hover{
+	padding-left: 50px;
+	animation:  0.5s !important;
+}

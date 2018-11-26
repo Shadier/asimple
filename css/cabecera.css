@@ -1,0 +1,12 @@
+#titulo{
+	margin-top: 20px;
+	box-sizing: border-box;
+	font-family: 'Colonial';
+	font-size: 38px;
+	display: inline-block;
+	min-width: 100%;
+	max-width: 100%;
+	padding-left: 60px;
+	padding-right: 60px;
+	text-align: center;
+}

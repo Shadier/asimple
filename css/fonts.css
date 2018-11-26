@@ -1,0 +1,28 @@
+@font-face { 
+  font-family: "Helvetica";
+  src: url(../fonts/Helvetica Neue.ttf) format("truetype");
+}
+@font-face { 
+  font-family: "HelveticaL";
+  src: url(../fonts/Helvetica_Light.ttf) format("truetype");
+}
+@font-face { 
+  font-family: "Colonial";
+  src: url(../fonts/colonial.otf) format("opentype");
+}
+@font-face { 
+  font-family: "Antigua";
+  src: url(../fonts/antigua.otf) format("opentype");
+}
+@font-face { 
+  font-family: "Colonial2";
+  src: url(../fonts/Colonial.ttf) format("truetype");
+}
+@font-face { 
+  font-family: "MacB";
+  src: url(../fonts/MYRIADPRO-BOLD.OTF) format("opentype");
+}
+
+*{
+  font-family: 'Helvetica';
+}
